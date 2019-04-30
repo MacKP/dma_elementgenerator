@@ -104,12 +104,12 @@ class DMAElementGeneratorCallbacks extends Backend
 
             if (empty($arrOptions))
             {
-                return null;
+                return array();
             }
 
             if ($objField->type == 'checkbox' && count($arrOptions) == 1)
             {
-                return null;
+                return array();
             }
 
 
